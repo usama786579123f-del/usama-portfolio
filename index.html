@@ -7,17 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-  :root {
-    --bg: #0a0a0f;
-    --surface: #13131a;
-    --surface2: #1c1c26;
-    --border: rgba(255,255,255,0.08);
-    --accent: #7c5cfc;
-    --accent2: #c084fc;
-    --text: #f0f0f5;
-    --muted: #6b6b80;
-    --subtle: #9090a8;
-  }
+  :root { --bg: #0a0a0f; --surface: #13131a; --border: rgba(255,255,255,0.08); --accent: #7c5cfc; --accent2: #c084fc; --text: #f0f0f5; --muted: #6b6b80; --subtle: #9090a8; }
   html { scroll-behavior: smooth; }
   body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.7; min-height: 100vh; }
   nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; background: rgba(10,10,15,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
@@ -83,10 +73,7 @@
 
 <div class="hero">
   <div>
-    <div class="hero-badge">
-      <span class="badge-dot"></span>
-      Available for freelance work
-    </div>
+    <div class="hero-badge"><span class="badge-dot"></span>Available for freelance work</div>
     <h1>Hi, I'm <span>Usama Ibrahim</span></h1>
     <p class="hero-sub">Frontend Developer & UI/UX Designer from Rahim Yar Khan, Pakistan. I build modern, AI-powered web apps from idea to deployment.</p>
     <div class="hero-cta">
@@ -118,6 +105,7 @@
   <div class="section-label">My work</div>
   <h2 class="section-title">Projects</h2>
   <p class="section-desc">Real projects built and deployed — not just practice.</p>
+
   <div class="project-card">
     <div class="project-header">
       <div class="project-name">Viora AI — AI Video Studio</div>
@@ -131,9 +119,28 @@
       <span class="tag">Fal.ai</span>
       <span class="tag">Cloudinary</span>
       <span class="tag">JWT Auth</span>
+      <span class="tag">REST API</span>
     </div>
     <a href="https://viora-ai-weld.vercel.app" target="_blank" class="project-link">View live project →</a>
   </div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <div class="project-name">Skyline Weather — Live Weather App</div>
+      <span class="project-live">🟢 Live</span>
+    </div>
+    <p class="project-desc">Real-time weather app with live rotating 3D Earth globe, Pakistan rain alerts in Urdu, 5-day forecast, hourly predictions, and rain probability. Users can search any city worldwide and get instant accurate weather powered by OpenWeatherMap API.</p>
+    <div class="project-tags">
+      <span class="tag">React</span>
+      <span class="tag">Three.js</span>
+      <span class="tag">OpenWeatherMap API</span>
+      <span class="tag">3D Globe</span>
+      <span class="tag">Rain Alerts</span>
+      <span class="tag">Urdu</span>
+    </div>
+    <a href="https://sky-weather-3axn.vercel.app" target="_blank" class="project-link">View live project →</a>
+  </div>
+
 </section>
 
 <hr class="divider">
@@ -141,7 +148,7 @@
 <section id="contact">
   <div class="section-label">Get in touch</div>
   <h2 class="section-title">Let's work together</h2>
-  <p class="section-desc">Open to freelance projects worldwide. Reach out and let's build something great.</p>
+  <p class="section-desc">I'm open to freelance projects worldwide. Reach out and let's build something great.</p>
   <div class="contact-grid">
     <div class="contact-card"><div class="contact-icon">📱</div><div><div class="contact-label">WhatsApp</div><div class="contact-value">03291829940</div></div></div>
     <div class="contact-card"><div class="contact-icon">🐙</div><div><div class="contact-label">GitHub</div><div class="contact-value">usama786579123f-del</div></div></div>
